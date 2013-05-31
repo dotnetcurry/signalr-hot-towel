@@ -1,0 +1,23 @@
+﻿<section>
+    <h2 class="page-title" data-bind="text: title"></h2>
+</section>
+
+<div>
+    <ul data-bind="foreach: notes">
+        <li style="list-style: none">
+            <div style="border: solid 1px gray; padding:10px">
+                <h1>
+                    <label data-bind="text: Name"></label>
+                </h1>
+                <label data-bind="text: Updated"></label>
+                <br />
+                <textarea data-bind="value: Text" class="note-text" rows="5" style="width:90%"></textarea><br />
+            </div>
+        </li>
+    </ul>
+</div>
+
+<!--<div class="container">
+    <button class="btn" data-bind="click: sendMessageAction">Send a Hello to All clients</button>
+    <label data-bind="text: messageReceived">No Messages Recieved</label>
+</div>-->

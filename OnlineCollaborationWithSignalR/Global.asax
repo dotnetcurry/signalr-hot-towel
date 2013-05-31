@@ -1,0 +1,1 @@
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="OnlineCollaborationWithSignalR.MvcApplication" Language="C#" %>
